@@ -10,4 +10,8 @@ router.get('/blog', (req,res) => {
     res.render('blogs.ejs');
 });
 
+router.get('/contact', (req,res) => {
+    res.render('contact.ejs');
+});
+
 module.exports = router;
