@@ -14,4 +14,12 @@ router.get('/contact', (req,res) => {
     res.render('contact.ejs');
 });
 
+router.get('/services', (req,res) => {
+    res.render('service.ejs');
+});
+
+router.get('/proyects', (req,res) => {
+    res.render('proyect.ejs');
+});
+
 module.exports = router;
